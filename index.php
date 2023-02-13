@@ -4,7 +4,8 @@
 	if ($_SESSION["user_id"]) {
 		header("Location: home.php");
 	}
-?>
+    echo "HelloWorld";
+    ?>
 
 <!--
    This template created by Meralesson.com 
